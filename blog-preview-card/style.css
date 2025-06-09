@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Figtree-Medium";
+  src: url(./assets/fonts/static/Figtree-Medium.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  font-family: "Figtree-Medium";
+  background-color: #f5d04e;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  border: 1px solid black;
+  max-width: 230px;
+  border-radius: 8px;
+  box-shadow: 4px 4px black;
+  background-color: white;
+  padding: 12px;
+}
+.yel_img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 2px 0px 6px 0px;
+}
+.lower {
+  display: flex;
+}
+p {
+  font-size: 10px;
+}
+.learning {
+  background-color: #f5d04e;
+  border-radius: 4px;
+  padding: 3px 6px;
+  width: fit-content;
+}
+.avtar {
+  width: 10%;
+}
+.desc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.lower > p {
+  position: relative;
+  top: 4px;
+  left: 10px;
+  font-weight: 600;
+}
+.para {
+  color: rgb(105, 104, 104);
+  line-height: 15px;
+}
