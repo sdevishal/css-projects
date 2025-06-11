@@ -29,32 +29,35 @@ body {
 img {
   border-radius: 50%;
   width: 25%;
+  margin-bottom: 10px;
 }
 .uk {
   color: #607034;
 }
-ul{
-    margin-block: 10px;
-   }
-li{
-list-style: none;
-margin-block: 15px;
-background-color: #1f1f1f;
-border-radius: 7px;
-padding: 10px;
-text-align: center;
-box-shadow: 5px 5px #00000011;
+ul {
+  margin-block: 10px;
 }
-li:hover{
-    cursor: pointer;
+li {
+  list-style: none;
+  margin-block: 15px;
+  background-color: #1f1f1f;
+  border-radius: 7px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 5px 5px #00000011;
 }
-.upper{
-    text-align: center;
-    margin-block: 20px;
+li:hover {
+  cursor: pointer;
 }
-h3,p{
-    margin-block: 5px;
+.upper {
+  text-align: center;
+  margin-block: 20px;
 }
-p,li{
-    font-size: 12px;
+h3,
+p {
+  margin-block: 5px;
+}
+p,
+li {
+  font-size: 12px;
 }
