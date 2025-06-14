@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "HankenGrotesk-Medium";
+  src: url(./assets/fonts/static/HankenGrotesk-Medium.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: #ecf2ff;
+  min-height: 100vh;
+  font-family: "HankenGrotesk-Medium";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.white_card {
+  background-color: #fff;
+  min-height: 250px;
+  width: 420px;
+  border-radius: 20px;
+  display: flex;
+}
+.blue_card {
+  background-image: linear-gradient(to bottom, #6542fe, #312ceb);
+  /* background-color: #6141fb; */
+  border-radius: 20px;
+  min-height: 115px;
+  width: 210px;
+  color: #fff;
+  text-align: center;
+  padding: 30px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.right_card {
+  min-height: 115px;
+  width: 210px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.right_card > :first-child {
+  margin-right: auto;
+}
+.circle {
+  background-color: #6f8ce1;
+  border-radius: 50%;
+  padding: 30px 40px;
+  margin-top: 14px;
+}
+p {
+  font-size: 10px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #303b59;
+  padding: 9px 60px;
+  border-radius: 30px;
+  font-size: 12px;
+}
+.reaction,
+.memory,
+.verbal,
+.visual {
+  border-radius: 5px;
+  padding-block: 6px;
+  font-size: 12px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
