@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "DMSans";
+  src: url(./assets/fonts/static/DMSans-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --purple-100: hsl(254, 88%, 90%);
+  --purple-500: hsl(256, 67%, 59%);
+  --yellow-100: hsl(31, 66%, 93%);
+  --yellow-500: hsl(39, 100%, 71%);
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 7%);
+}
+img {
+  width: 100%;
+  display: block;
+}
+body {
+  background-color: #f5f5f5;
+  /* min-height: 100vh; */
+  font-family: "DMSans";
+  font-size: 18px;
+  line-height: 0.9;
+}
+
+.xlg-text {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.lg-text {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.sm-text {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.bento-grid {
+  /* width: 80%; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 180px);
+  grid-template-rows: repeat(auto-fit, 300px);
+  gap: 0.5rem;
+  border: 1px solid red;
+  height: 90vh;
+  justify-content: center;
+  /* align-content: center; */
+  grid-template-areas:
+    "box1 box2 box2 box3"
+    "box1 box2 box2 box3"
+    "box1 box2 box2 box3"
+    "box1 box2 box2 box3"
+    "box1 box5 box6 box3"
+    "box4 box5 box6 box3"
+    "box4 box5 box6 box3"
+    "box4 box7 box8 box8"
+    "box4 box7 box8 box8"
+    "box4 box7 box8 box8";
+}
+.bento-grid .item {
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid red;
+  height: 100%;
+}
