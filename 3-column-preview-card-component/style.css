@@ -1,0 +1,97 @@
+/* My CSS CODE */
+
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  font-family: "Lexend Deca";
+  color: white;
+  display: flex;
+  width: 862px;
+  height: 475px;
+  margin-inline: 2rem;
+}
+.sedans,
+.suvs,
+.luxury {
+  padding: 2.5rem;
+}
+.sedans {
+  background-color: #e28525;
+  border-radius: 10px 0 0 10px;
+}
+.suvs {
+  background-color: #155860;
+}
+.luxury {
+  background-color: #00403f;
+  border-radius: 0 10px 10px 0;
+}
+a {
+  color: white;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 25px;
+  padding: 1em 2em;
+  position: relative;
+  top: 6.5rem;
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+.sedans a {
+  color: #e28525;
+}
+.suvs a {
+  color: #155860;
+}
+.luxury a {
+  color: #00403f;
+}
+img {
+  opacity: 0.7;
+}
+p {
+  line-height: 1.7;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+h1 {
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+  opacity: 0.7;
+}
+
+/* media query Small devices */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 200vh;
+    margin-block: 3rem;
+  }
+  .sedans,
+  .suvs,
+  .luxury {
+    width: 18rem;
+    height: 26rem;
+  }
+  .sedans {
+    border-radius: 10px 10px 0 0;
+  }
+  .luxury {
+    border-radius: 0 0 10px 10px;
+  }
+  p {
+    margin-bottom: -2rem;
+  }
+}
